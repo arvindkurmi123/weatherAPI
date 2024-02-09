@@ -20,6 +20,11 @@ export default function WeatherApp(){
             <h1>Wheather App</h1>
             <SearchBox updateInfo={updateInfo}/>
             <InfoBox info={weatherInfo} />
+
+            <h1>Wheather App2</h1>
+            <SearchBox updateInfo={updateInfo}/>
+            <InfoBox info={weatherInfo} />
         </div>
+        
     )
 }
